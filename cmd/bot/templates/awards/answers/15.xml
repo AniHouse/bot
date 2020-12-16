@@ -1,0 +1,5 @@
+<template>
+  <embed color="#faa61a">
+    {{.Mention}}, Вы наблюдали за программированием Стёмы и Меро, но не забыли сделать {{.Reason}} и получили {{.Amount}}&lt;:AH_AniCoin:579712087224483850&gt;
+  </embed>
+</template>

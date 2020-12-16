@@ -1,0 +1,5 @@
+<template>
+  <embed color="#faa61a">
+    {{.Mention}}, Фузу мирно рисовала в войсе, а Вы сделали {{.Reason}} и собрали {{.Amount}}&lt;:AH_AniCoin:579712087224483850&gt;
+  </embed>
+</template>

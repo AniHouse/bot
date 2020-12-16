@@ -1,0 +1,5 @@
+<template>
+  <embed color="#faa61a">
+    {{.Mention}}, Вы собрали с тысячи людей по АниКоину и {{.Reason}}нули сервер. Вы получили {{.Amount}}&lt;:AH_AniCoin:579712087224483850&gt;
+  </embed>
+</template>

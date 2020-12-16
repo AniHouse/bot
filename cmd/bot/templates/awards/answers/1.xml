@@ -1,0 +1,5 @@
+<template>
+  <embed color="#43b581">
+    {{.Mention}}, Вы сделали {{.Reason}} сервера и Тихий Ужас вручил Вам {{.Amount}}&lt;:AH_AniCoin:579712087224483850&gt;
+  </embed>
+</template>

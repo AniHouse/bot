@@ -1,0 +1,6 @@
+<template>
+  <embed color="#f11d56">
+    <title>Запрос отменён</title>
+    Курьер спился, а запрос отменили(
+  </embed>
+</template>

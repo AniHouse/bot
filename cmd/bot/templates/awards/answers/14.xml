@@ -1,0 +1,5 @@
+<template>
+  <embed color="#faa61a">
+    {{.Mention}}, Вы сохранили последние пять минут и угрожающе сделали {{.Reason}}. Глюк расстрогался и отдал Вам {{.Amount}}&lt;:AH_AniCoin:579712087224483850&gt;
+  </embed>
+</template>

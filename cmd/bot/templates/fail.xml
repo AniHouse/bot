@@ -1,0 +1,6 @@
+<template>
+    <embed color="#f11d56">
+        {{if .Title }} <title>{{ .Title }}</title> {{ end }}
+        {{if .Message }} {{ .Message }} {{ end }}
+    </embed>
+</template>

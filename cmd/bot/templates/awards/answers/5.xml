@@ -1,0 +1,5 @@
+<template>
+  <embed color="#faa61a">
+    {{.Mention}}, пожертвовав жизнью на войне за {{.Reason}}, Вас посмертно наградили {{.Amount}}&lt;:AH_AniCoin:579712087224483850&gt;
+  </embed>
+</template>

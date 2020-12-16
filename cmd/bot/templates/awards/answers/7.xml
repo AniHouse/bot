@@ -1,0 +1,5 @@
+<template>
+  <embed color="#faa61a">
+    {{.Mention}}, сыр съел сырный сырник {{.Reason}}ая сервер, Вам заплатили моральную компенсацию в {{.Amount}}&lt;:AH_AniCoin:579712087224483850&gt;
+  </embed>
+</template>

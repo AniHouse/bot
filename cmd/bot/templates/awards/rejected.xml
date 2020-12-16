@@ -1,0 +1,5 @@
+<template>
+    <embed color="#f11d56">
+        Заявка отклонена
+    </embed>
+</template>

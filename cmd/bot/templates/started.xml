@@ -1,0 +1,6 @@
+<template>
+    <embed color="#ffa550">
+        <title>Бот {{.Name}} запущен</title>
+        Бот запущен
+    </embed>
+</template>

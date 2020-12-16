@@ -1,0 +1,12 @@
+role_hermit: "696041625947996201"
+message_farm:
+  channels:
+    - "695739766557245461"
+    - "695739819598282763"
+  xp_for_char: 0.334
+  xp_for_rune: 5
+  xp_for_empty: 141
+voice_farm:
+  wait_for: "1s"
+  xp_for_voice: 50
+  max_room_boost: 15

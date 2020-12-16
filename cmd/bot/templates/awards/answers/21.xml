@@ -1,0 +1,5 @@
+<template>
+  <embed color="#faa61a">
+    {{.Mention}}, Эксля заснул, что-то бормоча во сне: "Z-z-z... {{.Reason}} Z-z-z... {{.Amount}}&lt;:AH_AniCoin:579712087224483850&gt; Z-z-z...
+  </embed>
+</template>

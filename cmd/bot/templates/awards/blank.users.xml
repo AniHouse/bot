@@ -1,0 +1,16 @@
+<template>
+  <embed color="{{ if .Err -}} #f11d56 {{- else -}} #faa61a {{- end }}">
+    <title>Запрос редактируется</title>
+    {{ with .Blank.Actions }}
+    {{ if .Send -}} {{ $.Author.Mention }}, **отправьте запрос или назовите получателей для новой суммы**. 
+    {{- else -}} {{ $.Author.Mention }}, **перечислите получателей для одинаковой суммы**. {{- end }}
+    {{ if .Send -}} Используйте команду `-отправить`, чтобы выслать запрос на рассмотрение {{- end }}
+    {{ end }}
+    Отправте команду `-выдать` с упоминаниями получателей.
+    <fields>
+      {{ template "awards/blank-fields.xml" . }}
+      {{ template "awards/blank-actions.xml" . }}
+    </fields>
+    {{ template "awards/blank-footer.xml" . }}
+  </embed>
+</template>

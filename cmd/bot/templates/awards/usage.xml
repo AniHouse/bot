@@ -1,0 +1,22 @@
+<!--delete rudimento-->
+<template>
+  <embed color="#43b581">
+    <fields>
+      <field name="Общий синтаксис:" inline="false">
+        ```md
+        -запрос &lt;причина&gt;
+        ```
+      </field>
+      <field name="Пример:" inline="false">
+        ```md
+        -запрос Победители ивента &quot;Шляпа&quot;
+        -выдать @someone @elseone
+        -сумма 1000
+        -выдать @anotherone
+        -сумма 500
+        -отправить
+        ```
+      </field>
+    </fields>	    
+  </embed>
+</template>

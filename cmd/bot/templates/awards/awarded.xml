@@ -1,0 +1,5 @@
+<template>
+  <embed color="#43b581">
+    {{.Amount}}&lt;:AH_AniCoin:579712087224483850&gt; были выданы {{.Mention}}, за то что он сделал {{.Reason}}
+  </embed>
+</template>

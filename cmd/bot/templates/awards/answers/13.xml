@@ -1,0 +1,5 @@
+<template>
+  <embed color="#faa61a">
+    {{.Mention}}, на вечерних посиделках с Хикаро вы сражались за {{.Reason}}. Хикаро Вас наградил {{.Amount}}&lt;:AH_AniCoin:579712087224483850&gt;
+  </embed>
+</template>

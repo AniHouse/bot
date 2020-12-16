@@ -1,0 +1,5 @@
+<template>
+  <embed color="#faa61a">
+    {{.Mention}}, Эспада зажала Вас в тиски, но вы успели сделать {{.Reason}}. Они зауважали Вас и дали {{.Amount}}&lt;:AH_AniCoin:579712087224483850&gt;
+  </embed>
+</template>

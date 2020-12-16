@@ -1,0 +1,9 @@
+<template>
+  <embed color="#faa61a">
+    <title>Запрос отправлен</title>
+    Курьер уже в пути!
+    <fields>
+      {{ template "awards/blank-fields.xml" . }}
+    </fields>
+  </embed>
+</template>

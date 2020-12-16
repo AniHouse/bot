@@ -1,0 +1,46 @@
+session:
+  log:
+    file: ./logs/session.log
+    level: info
+    formatter: text
+bot:
+  guild_id: "785748548192960583"
+  channels:
+    console: "788359402116743178"
+    errors: "788359450506821684"
+    logs: "788359450506821684"
+  templates: ./templates/
+  log:
+    file: ./logs/bot.log
+    level: trace
+    formatter: text
+cache:
+  path: ./cache/
+  ttl:
+    blank: 5m
+    username: 30s
+database:
+  connection: postgresql://admin:admin@localhost:54320/bot?sslmode=disable
+  driver: pgx
+  max_idle_connection: 3
+  max_open_connection: 2
+  log:
+    file: ./logs/storage.log
+    level: trace
+    formatter: text
+modules:
+  test:
+    enabled: true
+    prefix: "-"
+    log:
+      file: ./logs/test.log
+      level: trace
+      formatter: text
+  clubs:
+    config_file: ./modules/clubs.yaml
+    enabled: true
+    prefix: "."
+    log:
+      file: ./logs/clabs.log
+      level: trace
+      formatter: text

@@ -1,0 +1,5 @@
+<template>
+  <embed color="#faa61a">
+    {{.Mention}}, у Боннуса провис интернет, так что вы беспрепятствеено {{.Reason}}нули сервер и забрали {{.Amount}}&lt;:AH_AniCoin:579712087224483850&gt;
+  </embed>
+</template>

@@ -1,0 +1,12 @@
+<template>
+    <embed color="#43b581">
+        <title>Триггер добавлен</title>
+        Триггер на слово `{{ .Name }}` добавлен.
+        <fields>
+            <field name="Значения" inline="false">
+            {{ range .Answers }}
+            `{{ . }}`{{ end }}
+            </field>
+        </fields>
+    </embed>
+</template>

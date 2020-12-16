@@ -1,0 +1,5 @@
+<template>
+  <embed color="#faa61a">
+    {{.Mention}}, Вы помогли Ведьмаку с {{.Reason}}ом, за что Вам заплатили __ЧЕКАННЫМИ__ {{.Amount}}&lt;:AH_AniCoin:579712087224483850&gt;
+  </embed>
+</template>

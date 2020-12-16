@@ -1,0 +1,5 @@
+<template>
+  <embed color="#faa61a">
+    {{.Mention}}, Кемпер поднимал актив, чтобы кемперить АниКоины, так что вы тихо {{.Reason}}нули сервер и получили {{.Amount}}&lt;:AH_AniCoin:579712087224483850&gt;
+  </embed>
+</template>
